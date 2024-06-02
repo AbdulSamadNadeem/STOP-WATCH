@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+body{
+    background-image: linear-gradient( #273c75, #b2bec3);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.header{
+    text-align: center;
+    font-size: 60px;
+    text-decoration: underline;
+    color: #b2bec3;
+}
+.main{
+    margin-top: 250px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.hrs h1{
+   font-size: 50px;
+   text-decoration: underline;
+}
+.min h1{
+   font-size: 50px;
+   text-decoration: underline;
+}
+.sec h1{
+   font-size: 50px;
+   text-decoration: underline;
+}
+.milli-sec h1{
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+ .hrs{
+    width: 150px;
+    height: 160px;
+    background-color: black;
+    color: #b2bec3;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #718093;
+ }
+ .min{
+    width: 150px;
+    height: 160px;
+    background-color: black;
+    color: #b2bec3;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #718093;
+
+ }
+ .sec{
+    width: 150px;
+    height: 160px;
+    background-color: black;
+    color: #b2bec3;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #718093;
+ }
+ .milli-sec{
+    width: 150px;
+    height: 160px;
+    background-color: black;
+    color: #b2bec3;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #718093;
+
+ }
+ .hrs p{
+    font-size: 50px;
+    margin-top: 30px;
+    font-weight: bold;
+ }
+ .min p{
+    font-size: 50px;
+    margin-top: 30px;
+    font-weight: bold;
+ }
+ .sec p{
+    font-size: 50px;
+    margin-top: 30px;
+    font-weight: bold;
+ }
+
+.milli-sec p {
+    font-size: 50px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+ .buttons{
+   display: flex;
+   justify-content: center;
+   margin-top: 50px;
+   gap: 50px;
+    
+ }
+.buttons #start{
+   width: 120px;
+   height: 40px;
+   border-radius:20px;
+   border: 2px solid #7f8fa6;
+   background-color: #273c75;
+   color: #fff;
+   transition: 0.5s;
+}
+.buttons #pause{
+   width: 120px;
+   height: 40px;
+   border-radius:20px;
+   border: 2px solid #7f8fa6;
+   background-color: #273c75;
+   color: #fff;
+   transition: 0.5s;
+}
+.buttons #reset{
+   width: 120px;
+   height: 40px;
+   border-radius:20px;
+   border: 2px solid #7f8fa6;
+   background-color: #273c75;
+   color: #fff;
+   transition: 0.5s;
+}
+#start:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+#pause:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+#reset:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
